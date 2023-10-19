@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="principal-navigation">
+                <a href="#lineup">Line Up</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#tickets">Tickets</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="container video-content">
+                <h2>Rock & EDM Festival</h2>
+                <p>November 2021, Santa Ana, California</p>
+            </div>
+        </div>
+
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="container about-festival">
+        <div class="img">
+            <picture>
+                <source src="build/img/imagen_vocalista.avif" type="image/avif">
+                <source src="build/img/imagen_vocalista.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="Vocalist Image">
+            </picture>
+        </div>
+
+        <div class="festival-content">
+            <h2>Rock & EDM Festival</h2>
+            <p class="date">November 2021, Santa Ana, California</p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus, massa nec ultricies egestas, mauris mauris eleifend odio, et lacinia diam risus sit amet massa. Maecenas volutpat a ex sit amet gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque egestas ante nec laoreet. Suspendisse porttitor posuere est vel vehicula.</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+        <p class="day">Friday 26</p>
+
+        <div class="stages-container container">
+            <div class="stage rock bg-yellow">
+                <p class="stage-name">Stage Rock</p>
+
+                <ul class="calendar">
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Breaking Benjamin</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Muse</span>
+                    </li>
+                    <li>
+                        20:00 | <span>KoRn</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                </ul>
+            </div> <!--.stage-->
+
+            <div class="stage edm bg-green">
+                <p class="stage-name">Stage EDM</p>
+    
+                <ul class="calendar">
+                    <li>
+                        17:00 | <span>Audien</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Dash Berlin</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        24:00 | <span>Deadmau5</span>
+                    </li>
+                </ul>
+            </div> <!--.stage-->
+        </div> <!--.stage-container-->
+
+        <p class="day">Saturday 27</p>
+
+        <div class="stages-container container">
+            <div class="stage rock bg-green">
+                <p class="stage-name">Stage Rock</p>
+
+                <ul class="calendar">
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Limp Bizkit</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deftones</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Killers</span>
+                    </li>
+                    <li>
+                        24:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                </ul>
+            </div> <!--.stage-->
+
+            <div class="stage edm bg-yellow">
+                <p class="stage-name">Stage EDM</p>
+    
+                <ul class="calendar">
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Eric Prdyz</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        24:00 | <span>Paul Van Dyk</span>
+                    </li>
+                </ul>
+            </div> <!--.stage-->
+        </div> <!--.stage-container-->
+    </section> 
+
+    <section id="gallery" class="gallery container">
+        <h3>Gallery</h3>
+        <ul class="image-gallery"></ul>
+    </section>
+
+    <section id="tickets" class="tickets bg-green">
+        <h3>Tickets</h3>
+
+        <div class="container tickets-container">
+            <div class="basic pass">
+                <p class="pass-name">1 Day Pass</p>
+
+                <header class="pass-header">
+                    <p>Includes</p>
+                </header>
+
+                <div class="pass-body">
+                    <ul>
+                        <li>Access to both stages</li>
+                        <li>Food and drinks</li>
+                    </ul>
+                </div>
+
+                <footer class="pass-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+
+            <div class="premium pass">
+                <p class="pass-name">2 Days Pass</p>
+
+                <header class="pass-header">
+                    <p>Includes</p>
+                </header>
+
+                <div class="pass-body">
+                    <ul>
+                        <li>Access to both stages</li>
+                        <li>Food and drinks</li>
+                        <li>Event shirt</li>
+                        <li>VIP access</li>
+                    </ul>
+                </div>
+
+                <footer class="pass-footer">
+                    <p>$180</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>Rock & EDM Festival. All Rights Reserved © 2021</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>
